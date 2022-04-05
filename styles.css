@@ -13,6 +13,15 @@ header {
     justify-content: space-between;
 }
 
+header div {
+    padding: 0 2rem;
+}
+
+header nav {
+    padding-top: 3rem;
+    padding-right: 4rem;
+}
+
 header h1 {
     font-size: 4rem;
     color: white;
@@ -72,7 +81,7 @@ nav ul li {
     flex-direction: column;
     justify-content: space-around; */
     text-align: center;
-    padding: 1em;
+    /* padding: 1em; */
     
 
 }
@@ -90,7 +99,109 @@ content h2 {
 
 content p {
     font-size: 1.5rem;
-    width: 50%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
     margin: auto;
+    line-height: 1.75;
+}
+
+content a {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border: .75REM solid #F8BAC7;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F8BAC7;
+}
+
+footer {
+    background-image: url(/images/Rectangle\ 5.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    /* margin-bottom: 0; */
+}
+
+footer img {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#contact {
+    /* margin-top: auto;
+    margin-bottom: auto;  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+}
+
+#contact h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #AD616E;
+}
+
+#contact p {
+    font-size: 1.25rem;
+    color: #AD616E;
+    margin: 0;
+}
+
+#contact input {
+    padding: 15px 0;
+    border-style: none;
+}
+
+#name-input {
+    background-image: url(/icons/Person\ Icon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    border-radius: 10px;
+}
+
+#email-input {
+    background-image: url(/icons/Email\ Icon.svg);
+    background-repeat: no-repeat;
+    background-position: 10px 5px;
+    border-radius: 10px;
+}
+
+#contact a {
+    font-size: 1.25rem;
+    color: white;
+    border: 1px solid #AD616E;
+    background-color: #AD616E;
+    padding: .5rem;
+    text-align: center;
+    margin-top: 2rem;
+    width: 40%;
+    border-radius: 5px;
+}
+
+#socials {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+#socials p {
+    font-size: 1.5rem;
+    color: #AD616E;
+    font-weight: bold;
+}
+
+#socials ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    
 }
